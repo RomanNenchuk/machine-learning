@@ -1,0 +1,20 @@
+# Ignore everything by default
+*
+
+# Allow traversing directories to inspect contents
+!*/
+
+# Allow lab-N directories at any nesting depth
+!lab-*/
+
+# Allow specific files inside lab directories
+!lab-*/main.ipynb
+!lab-*/requirements.txt
+!lab-*/data/
+!lab-*/data/**
+
+# Allow root-level files
+!/.gitignore
+!/README.md
+
+# List targeted exceptions below
